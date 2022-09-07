@@ -6,16 +6,18 @@ import Trimble from '../../assets/img/PLogos/Trimble-logo.png'
 import Keefe from '../../assets/img/PLogos/keefe_group-logo.png'
 import Aws from '../../assets/img/PLogos/aws-logo.png'
 import Mach from '../../assets/img/PLogos/mach1-logo.png'
+import OmniLogi from '../../assets/img/PLogos/omniLogo.png'
 
 export default function Partners() {
   return (
     <div className="partners">
         <div className="title_section">
-            <h3>Our partner</h3>
+            <h3>Our Partners</h3>
             <p>companies switched to VSS logistics for their freight movemenet</p>
         </div>
         <div className="container">
             <ul className="partner_logos">
+                <li><a href="/"><img src={OmniLogi} alt="" /></a></li>
                 <li><a href="/"><img src={Vsstg} alt="" /></a></li>
                 <li><a href="/"><img src={Mlc} alt="" /></a></li>
                 <li><a href="/"><img src={Trimble} alt="" /></a></li>

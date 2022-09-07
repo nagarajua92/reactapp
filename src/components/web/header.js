@@ -6,7 +6,7 @@ export default function Header(){
     <div className="header">
         <div className="header_line up"></div>
        <div className="header_title">
-            SEA FREIGHT
+            VSS Global Solutions
        </div>
        <div className="header_line down"></div>
         <div className="container ">
@@ -16,9 +16,10 @@ export default function Header(){
                   </a>
                 <div className="flex">
                     <div className="phone_number">
-                        <span>FOR QUERIES:</span> <a href="tel:+19724722729">972-472-2729</a>
+                        {/* <span>FOR QUERIES:</span>  */}
+                       <a href="tel:+18335007693">+1 833 500 7693</a>
                     </div>
-                    <a href="/" className="menu"><i className="fa fa-bars" aria-hidden="true"></i></a>
+                    {/* <a href="/" className="menu"><i className="fa fa-bars" aria-hidden="true"></i></a> */}
                 </div>
             </div>
 
@@ -28,14 +29,16 @@ export default function Header(){
                 </div>
                 <div className="col_50 form-section">
                     <h3>PROFESSIONAL-CERTIFIED FREIGHT SERVICES</h3>
-                    <h2>Simplify your freight <br/>destination search</h2>
+                    <h2>A global logistics company. From A-to-Z, we're experts at custom solutions</h2>
                     
 
-                        <div className="form-fields" id="form_fields" >
+                        {/* <div className="form-fields" id="form_fields" >
                             <SearchForm />
                         </div>
-                    
                         <button type="submit" className="btn full-width">Get a quote</button>
+                        */}
+                    
+                        
                     
 
                 </div>

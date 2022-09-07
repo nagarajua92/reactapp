@@ -125,16 +125,16 @@ li {
   border-radius: 5px;
 }
 .form-section {
-  margin-top: 50px;
+  margin-top: 150px;
   color: #ffffff;
 }
 .form-section h2 {
-  font-size: 34px;
+  font-size: 40px;
   font-weight: 500;
   padding: 10px 0;
 }
 .form-section h3 {
-  font-size: 12px;
+  font-size: 16px;
 }
 .footer {
   background: #0146ab;
@@ -297,6 +297,10 @@ li {
 .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
 }
+.avator {
+  display: block;
+  text-align: right;
+}
 @media only screen and (max-width: 800px) {
   .container {
     width: 100%;
@@ -382,10 +386,10 @@ li {
   }
 }
 .up {
-  top: 49%;
+  top: 49% !important;
 }
 .down {
-  top: 53.5%;
+  top: 53.5% !important;
 }
 .form-fields .MuiInputBase-root {
   background: #ffffff !important;
@@ -413,4 +417,11 @@ li {
 }
 .form-fields .MuiSelect-root:hover {
   background: #ffffff !important;
+}
+@media only screen and (max-width: 1000px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
 }

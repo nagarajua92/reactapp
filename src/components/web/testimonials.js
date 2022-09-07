@@ -7,8 +7,8 @@ export default function Testimonials() {
   return (
     <div className="testimonials">
         <div className="title_section">
-            <h3>What people are saying about VSSTG</h3>
-            <p>10,000+ companies switched to VSS logistics for their freight movemenet</p>
+            <h3>Don't take our word for it, here's what our customers have to say...</h3>
+            {/* <p>10,000+ companies switched to VSS logistics for their freight movemenet</p> */}
         </div>
         <div className="">
 
@@ -17,8 +17,9 @@ export default function Testimonials() {
                 
                 type   : 'loop',
                 gap   : '1rem',
-                perPage: 4,
+                perPage: 1,
                 width:'100%',
+                pagination:false,
                 breakpoints:{
                     800:{
                         perPage:1
@@ -31,18 +32,23 @@ export default function Testimonials() {
         <SplideSlide>
                 <div className="testimonial_item">
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<strong> standard dummy text ever since the 1500s,</strong>
+                    "VSS Logistics has grown to be a strong partner of ours. We have worked closely with them for
+almost 4 years and have relied on their excellent service and communication, and fair
+rates. Their availability to help us after hours and on weekends offered us additional strong
+support. They are quick to adjust to the needs of their customers, with a “can-do” attitude. Any
+service issues are communicated right away with great attention and follow through. Thanks for
+all that you do for us! "
                     </p>
                     <div className="avator">
-                        <img src={AvatarMaker} alt="" />
+                        {/* <img src={AvatarMaker} alt="" /> */}
                         <div className="ava_content">
-                            <div className="title">Charlotte  </div>
-                            <div className="sub_title">Marketing Director</div>
+                            <div className="title">-Tessa Rawlette, Omni Linehaul Network  </div>
+                            {/* <div className="sub_title">Marketing Director</div> */}
                         </div>
                     </div>
                 </div>
         </SplideSlide>
-        <SplideSlide>
+        {/* <SplideSlide>
             <div className="testimonial_item">
                                 <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's<strong> standard dummy text ever since the 1500s,</strong>
@@ -97,7 +103,7 @@ export default function Testimonials() {
                             </div>
                         </div>
                     </div>
-        </SplideSlide>
+        </SplideSlide> */}
         </Splide>
         </div>
     </div>

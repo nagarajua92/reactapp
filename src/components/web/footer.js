@@ -11,7 +11,7 @@ export default function footer() {
             <div className="s_2 flex s_between">
                 <ul className="footer_nav">
                     <li><a href="/" className="pl0">Home</a></li>
-                    <li><a href="/">About Us</a></li>
+                    {/* <li><a href="/">About Us</a></li>
                     <li><a href="/">Services</a>
                         <ul>
                             <li><a href="/">Dryvan</a></li>
@@ -30,17 +30,20 @@ export default function footer() {
                             <li><a href="/">Refrigerated Freight</a></li>
                         </ul>
                     </li>
-                    <li><a href="/">Contact Us</a></li>
+                    <li><a href="/">Contact Us</a></li> */}
                 </ul>
                 <div className="footer_content">
-                <div className="f_title">Contact VSS Logistics</div>
-                <p>8840 Cypress Waters Blvd. Suite 190,<br/>
+                <div className="f_title">Contact</div>
+               
+
+               
+                <p>Domain: vsslogisticsgroup.com</p>
+                <p>Number: +1 833 500 7693</p>
+                <p>Email: Sales@vsslogisticsgroup.com</p>
+                <p><strong>Address:</strong> 8840 Cypress Waters Blvd. Suite 190,<br/>
                     Dallas, TX 75019</p>
 
-                <div className="f_title">972-472-2729</div>
-                <p>sales@vsslg.com</p>
-
-                <div className="f_title">Copyright 2022 | VSS Logistics Inc.</div>
+                <div className="f_title">Copyright 2022 | VSS Global Logistics Inc.</div>
                
                 </div>
             </div>
