@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Vsstg from '../../assets/img/PLogos/vsstg-logo.png'
-import Mlc from '../../assets/img/PLogos/mlc-logo.JPG'
+import Mlc from '../../assets/img/PLogos/mlc-logo.jpg'
 import Trimble from '../../assets/img/PLogos/Trimble-logo.png'
 import Keefe from '../../assets/img/PLogos/keefe_group-logo.png'
 import Aws from '../../assets/img/PLogos/aws-logo.png'
