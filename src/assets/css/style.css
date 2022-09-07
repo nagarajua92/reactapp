@@ -3,6 +3,9 @@
   padding: 0;
   font-family: 'Open Sans', sans-serif;
 }
+a {
+  text-decoration: none;
+}
 li {
   list-style: none;
 }
@@ -143,6 +146,9 @@ li {
   background-image: url(../img/worldmap.png);
   background-position: center;
   background-size: cover;
+}
+.footer a {
+  color: #ffffff;
 }
 .footer_nav li {
   float: left;

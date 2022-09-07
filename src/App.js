@@ -4,6 +4,7 @@ import Header from './components/web/header'
 import Partners from './components/web/partners'
 import Footer from './components/web/footer'
 import Testimonials from './components/web/testimonials'
+import Leadershp from './components/web/Leadershp'
 
 // Default theme
 import '@splidejs/react-splide/css';
@@ -21,6 +22,7 @@ function App() {
      <Header />
      <Testimonials />
      <Partners />
+     {/* <Leadershp /> */}
      <Footer />
     </div>
   );
