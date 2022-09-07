@@ -47,9 +47,7 @@ export default function footer() {
                
                 </div>
             </div>
-        </div>
-
-        
+        </div>        
     </div>
   )
 }
