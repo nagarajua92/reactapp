@@ -266,6 +266,7 @@ li{
     margin: 0 auto;
     padding-top: 0;
     padding-bottom: 0;
+    padding: 0;
 }
 .splide__arrows {
     display: none;
@@ -375,6 +376,22 @@ li{
     display: block;
     text-align: right;
  }
+
+
+.contact-page .header {
+    min-height: 300px;
+}
+
+.contact-page .header .form-section h1 {
+    font-size: 20px;
+    margin: 0;
+    text-align: right;
+}
+
+.contact-page .header .form-section {
+    margin: 0;
+}
+.contact-page  .header_line, .contact-page .header_title{display:none;}
   
   @media only screen and (max-width: 800px) {
    .container{
@@ -458,6 +475,10 @@ li{
     .title_section{
         padding: 20px;
     }
+    .form-section h1{
+        margin-left: 0;
+        text-align: center;
+    }
   }
 
   @media  only screen and (min-width: 768px) and (max-width:800px) {
@@ -474,6 +495,20 @@ li{
     .partner_logos li a{
         padding: 10px 0;
         margin: 10px 0;
+    }
+    .form-section h1{
+        margin-left: 0;
+        text-align: center;
+    }
+    .service_item{
+        width: 100%;
+    }
+    .contact-page .header .form-section h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .contact-section{
+        padding: 20px;
     }
   }
 
@@ -526,18 +561,3 @@ li{
 }
 
 
-
-.contact-page .header {
-    min-height: 300px;
-}
-
-.contact-page .header .form-section h1 {
-    font-size: 20px;
-    margin: 0;
-    text-align: right;
-}
-
-.contact-page .header .form-section {
-    margin: 0;
-}
-.contact-page  .header_line, .contact-page .header_title{display:none;}
