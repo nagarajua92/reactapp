@@ -5,10 +5,12 @@ import AvatarMaker2 from '../../assets/img/AvatarMaker2.png'
 
 export default function Testimonials() {
   return (
-    <div className="testimonials">
+    <div className="testimonials com-pad">
         <div className="title_section">
-            <h3>Don't take our word for it, here's what our customers have to say...</h3>
-            {/* <p>10,000+ companies switched to VSS logistics for their freight movemenet</p> */}
+            {/* <h3>Customer Testimonial</h3> */}
+            <h3>
+                Don't just take our word for it...
+            </h3>
         </div>
         <div className="">
 

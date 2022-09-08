@@ -11,6 +11,7 @@ export default function footer() {
             <div className="s_2 flex s_between">
                 <ul className="footer_nav">
                     <li><a href="/" className="pl0">Home</a></li>
+                    <li><a href="/contact-us">Contact us</a></li>
                     {/* <li><a href="/">About Us</a></li>
                     <li><a href="/">Services</a>
                         <ul>
@@ -30,14 +31,14 @@ export default function footer() {
                             <li><a href="/">Refrigerated Freight</a></li>
                         </ul>
                     </li>
-                    <li><a href="/">Contact Us</a></li> */}
+                     */}
                 </ul>
                 <div className="footer_content">
                 <div className="f_title">Contact</div>
                
 
                
-                <p>Domain: <a href="vsslogisticsgroup.com">vsslogisticsgroup.com</a> </p>
+                {/* <p>Domain: <a href="vsslogisticsgroup.com">vsslogisticsgroup.com</a> </p> */}
                 <p>Number: <a href="tel:+18335007693">+1 833 500 7693</a></p>
                 <p>Email: <a href="mailto:sales@vsslogisticsgroup.com">Sales@vsslogisticsgroup.com</a></p>
                 <p><strong>Address:</strong> 8840 Cypress Waters Blvd. Suite 190,<br/>

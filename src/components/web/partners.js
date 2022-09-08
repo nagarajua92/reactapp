@@ -10,10 +10,10 @@ import OmniLogi from '../../assets/img/PLogos/omniLogo.png'
 
 export default function Partners() {
   return (
-    <div className="partners">
+    <div className="partners com-pad">
         <div className="title_section">
             <h3>Our Partners</h3>
-            <p>companies switched to VSS logistics for their freight movemenet</p>
+            <p>Companies switched to VSS logistics for their freight movemenet</p>
         </div>
         <div className="container">
             <ul className="partner_logos">

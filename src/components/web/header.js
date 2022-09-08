@@ -28,8 +28,14 @@ export default function Header(){
 
                 </div>
                 <div className="col_50 form-section">
-                    <h3>PROFESSIONAL-CERTIFIED FREIGHT SERVICES</h3>
-                    <h2>A global logistics company. From A-to-Z, we're experts at custom solutions</h2>
+
+                <h1>
+                    EXPEDITED<br/>
+                    DEDICATED<br/>
+                    SOLUTIONS
+                </h1>
+                    {/* <h3>PROFESSIONAL-CERTIFIED FREIGHT SERVICES</h3>
+                    <h2>A global logistics company. From A-to-Z, we're experts at custom solutions</h2> */}
                     
 
                         {/* <div className="form-fields" id="form_fields" >

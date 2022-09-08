@@ -1,10 +1,9 @@
 
 import './App.css';
-import Header from './components/web/header'
-import Partners from './components/web/partners'
-import Footer from './components/web/footer'
-import Testimonials from './components/web/testimonials'
-import Leadershp from './components/web/Leadershp'
+import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
+
+import Home from  './components/web/Home';
+import Contact from  './components/web/Contact'
 
 // Default theme
 import '@splidejs/react-splide/css';
@@ -19,11 +18,15 @@ import './assets/css/style.css'
 function App() {
   return (
     <div>
-     <Header />
-     <Testimonials />
-     <Partners />
-     {/* <Leadershp /> */}
-     <Footer />
+      <Router>
+
+      <Switch>
+      <Route exact path='/' component={Home} />
+       <Route path='/contact-us' component={Contact} />
+      
+      </Switch>
+       
+     </Router>
     </div>
   );
 }
