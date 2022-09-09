@@ -156,14 +156,16 @@ li {
   border-radius: 5px;
 }
 .form-section {
-  margin-top: 110px;
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 70px;
 }
 .form-section h1 {
   font-size: 70px;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
-  margin-left: 200px;
   text-align: right;
 }
 .form-section h2 {
@@ -286,6 +288,7 @@ li {
 .contact-section {
   padding: 50px 0;
   min-height: 600px;
+  padding: 20px;
 }
 .contact-section h1 {
   font-size: 30px;
@@ -394,7 +397,7 @@ li {
   }
   .form-section {
     padding: 20px;
-    margin-top: 40px;
+    justify-content: center;
     box-sizing: border-box;
   }
   .header {
@@ -507,5 +510,8 @@ li {
     width: 100%;
     padding: 0 15px;
     box-sizing: border-box;
+  }
+  .form-section {
+    margin-top: 20px;
   }
 }
