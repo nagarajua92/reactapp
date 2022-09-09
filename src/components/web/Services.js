@@ -8,7 +8,9 @@ export default function Services() {
             <i className="fa fa-road" aria-hidden="true"></i>
               <h2>Ground freight</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              VSS Logistics provides customers with a variety of OTR freight options to best meet your needs.
+From dry vans to sprinter vans, flatbeds to RGNs, expedited to temp-controlled, and full
+truckload to partial, our team will provide the most customer-centric option to meet your needs
               </p>
           </div>
 
@@ -16,7 +18,8 @@ export default function Services() {
               <i className="fa fa-fighter-jet" aria-hidden="true"></i>
               <h2>Air freight</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              Expedited not fast enough? Need faster than fast? Consider our air options to get your freight
+moving quickly.
               </p>
           </div>
         
@@ -25,39 +28,40 @@ export default function Services() {
               <i className="fa fa-home" aria-hidden="true"></i>
               <h2>Warehousing and Distribution</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+              Whether it’s our facility or our network of partner warehouses, we can find ways to store,
+cross-dock, and distribute your product around the United States, Canada, and Mexico.
               </p>
           </div>
           <div className='clearfix'></div>
           <div className='service_item'>
-              <i className="fa fa-fighter-jet" aria-hidden="true"></i>
-              <h2>Ocean & Air Forwarding</h2>
+          <i class="fa fa-tint" aria-hidden="true"></i>
+
+              <h2>Ocean and Forwarding</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              We can be your intermediary with freight forwarders to arrange your ocean freight international
+shipments.
               </p>
           </div>
 
-          <div className='service_item'>
-              <i className="fa fa-money" aria-hidden="true"></i>
-              <h2>Customs Brokerage</h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-              </p>
-          </div>
+         
 
           <div className='service_item'>
               <i className="fa fa-road" aria-hidden="true"></i>
               <h2>North America Cross-Border</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+              We have authority to manage cross-border shipments in and out of Canada and Mexico
+following all USMCA requirements to efficiently move your North American freight.
               </p>
           </div>
-          <div className='clearfix'></div>
+         
           <div className='service_item'>
               <i className="fa fa-ship" aria-hidden="true"></i>
-              <h2>Port Container Drayage</h2>
+              <h2>Drayage</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              Your freight can be delivered right to your door from the port or rail. Or, if you have freight to
+move by port or rail, we can be your freight partner to provide this at competitive pricing with
+quick results. Our experienced team will work with your forwarding and customs partners to get
+your freight moving as soon as possible.
               </p>
           </div>
           <div className='clearfix'></div>
