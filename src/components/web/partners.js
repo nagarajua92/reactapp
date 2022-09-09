@@ -13,11 +13,11 @@ export default function Partners() {
     <div className="partners com-pad">
         <div className="title_section">
             <h3>Our Partners</h3>
-            <p>Companies switched to VSS logistics for their freight movemenet</p>
+            {/* <p>Companies switched to VSS logistics for their freight movemenet</p> */}
         </div>
         <div className="container">
             <ul className="partner_logos">
-                <li><a href="/"><img src={OmniLogi} alt="" /></a></li>
+                {/* <li><a href="/"><img src={OmniLogi} alt="" /></a></li> */}
                 <li><a href="/"><img src={Vsstg} alt="" /></a></li>
                 <li><a href="/"><img src={Mlc} alt="" /></a></li>
                 <li><a href="/"><img src={Trimble} alt="" /></a></li>

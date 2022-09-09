@@ -17,7 +17,7 @@ export default function Header(){
                 <div className="flex">
                     <div className="phone_number">
                         {/* <span>FOR QUERIES:</span>  */}
-                       <a href="tel:+18335007693">+1 833 500 7693</a>
+                       <a href="tel:+18335007693">+1 (833) 500-7693</a>
                     </div>
                     {/* <a href="/" className="menu"><i className="fa fa-bars" aria-hidden="true"></i></a> */}
                 </div>

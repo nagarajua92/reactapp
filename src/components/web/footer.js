@@ -41,10 +41,10 @@ export default function footer() {
                 {/* <p>Domain: <a href="vsslogisticsgroup.com">vsslogisticsgroup.com</a> </p> */}
                 <p>Number: <a href="tel:+18335007693">+1 833 500 7693</a></p>
                 <p>Email: <a href="mailto:sales@vsslogisticsgroup.com">Sales@vsslogisticsgroup.com</a></p>
-                <p><strong>Address:</strong> 8840 Cypress Waters Blvd. Suite 190,<br/>
+                <p>Address: 8840 Cypress Waters Blvd. Suite 190,<br/>
                     Dallas, TX 75019</p>
 
-                <div className="f_title">Copyright 2022 | VSS Global Logistics Inc.</div>
+                <div className="">Copyright 2022 | VSS Logistics Inc.</div>
                
                 </div>
             </div>
